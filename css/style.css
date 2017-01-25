@@ -1,0 +1,275 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/*
+low resolution, 480px and below
+*/
+
+@media only screen and (max-width: 480px) {
+    body {
+        background: rgb(244, 244, 244);
+        font-family: Verdana;
+    }
+    #master {
+        width: 95%;
+        margin: 0 auto;
+        border: 1px solid rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(200,200,200);
+    }
+    
+    header {
+        height: 130px;
+        background: rgb(0, 80, 125);
+        text-align: center;
+    }
+    header img {
+        margin-top:10px;
+    }
+    nav {
+        background: rgb(0, 0, 0);
+        padding: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    nav li {
+        display: inline;
+    }
+    nav li a {
+        text-decoration: none;
+        color: rgb(240, 120, 30);
+        font-weight: bold;
+        line-height: 220%;
+        font-size: 18px;
+    }
+    
+    #slideshow{
+        display: none;
+    }
+    
+    .contentbox {
+        background: rgb(0, 80, 125);
+        padding: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .contentbox img {
+        margin-top:-16px;
+    }
+    .contentbox p {
+        color: rgb(255,255,255);
+        font-size: 85%;
+        line-height: 180%;
+        text-align: justify;
+    }
+    
+    article {
+        width: 95%;
+        margin-left: 10px;
+    }
+    .news {
+        margin-bottom: 20px;
+    }
+    .news h2 {
+        font-family: Times;
+        font-size: 180%;
+    }
+    .news p {
+        line-height: 150%;
+    }
+    
+    footer nav {
+        margin-bottom: 0px;
+    }
+}
+
+/*
+######################################  Medium ##############################
+*/
+/*
+medium resolution, 481px to 1023px
+*/
+
+@media only screen and (min-width: 481px) {
+    body {
+        background: rgb(244, 244, 244);
+        font-family: Verdana;
+    }
+    #master {
+        width: 95%;
+        margin: 0 auto;
+        border: 1px solid rgb(200, 200, 200);
+        background: rgb(255, 255, 255);
+    }
+    header {
+        height: 130px;
+        background: rgb(0, 80, 125);
+    }
+    header img {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    
+    nav {
+        background: rgb(0, 0, 0);
+        padding: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 200%;
+    }
+    nav li {
+        display: inline;
+    }
+    nav li a {
+        text-decoration: none;
+        color: rgb(240, 120, 30);
+        font-weight: bold;
+        
+    }
+    #slideshow {
+        width: 90%;
+        //height: 300px;
+        margin: 10px auto;
+        background: rgb(200, 200, 200);
+    }
+    #slideshow img {
+        width: 100%;
+    }
+    
+    
+    .contentbox {
+        background: rgb(0, 80, 125);
+        padding: 10px;
+        margin-bottom: 10px;
+        min-height: 200px;
+    }
+    .contentbox img {
+        float: left;
+        margin-right: 10px;
+    }
+    .contentbox p {
+        color: rgb(255,255,255);
+        font-size: 85%;
+        line-height: 180%;
+        
+    }
+    
+    article {
+        width: 95%;
+        margin-left: 10px;
+    }
+    .news {
+        margin-bottom: 20px;
+    }
+    .news h2 {
+        font-family: Times;
+        font-size: 180%;
+    }
+    .news p {
+        line-height: 150%;
+    }
+    
+    
+    footer nav {
+        margin-bottom: 0px;
+    }
+}
+
+
+/*
+######################################  High ##############################
+*/
+
+/*
+high resolution,1024px and above
+*/
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background: rgb(244, 244, 244);
+        font-family: verdana;
+    }
+    #master {
+        width: 960px;
+        margin: 0 auto;
+        border: 1px solid rgb(200, 200, 200);
+        background: rgb(255, 255, 255);
+    }
+    header {
+        width: 960px;
+        height: 130px;
+        background: rgb(0, 80, 125);
+    }
+    header img{
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    
+    nav {
+        width: 960;
+        height: 35px;
+        background: rgb(0, 0, 0);
+        padding: 15px 0 5px 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    nav li {
+        display: inline;
+    }
+    nav li a {
+        text-decoration: none;
+        color: rgb(240, 120, 30);
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    #slideshow {
+        width: 840px;
+        height: 300px;
+        margin: 0 auto;
+        background: rgb(200, 200, 200);
+    }
+    
+    .contentbox {
+        width: 285px;
+        background: rgb(0, 80, 125);
+        padding: 10px;
+        margin: 20px 0 10px 10px;
+        float: left;
+    }
+    .contentbox img {
+        margin-top: -18px;
+    }
+    .contentbox p {
+        color: rgb(255,255,255);
+        font-size: 80%;
+        line-height: 140%;
+        margin-top: 10px;
+    }
+    
+    article {
+        width: 940px;
+        margin-left: 10px;
+    }
+    .news {
+        margin-bottom: 20px;
+    }
+    .news h2 {
+        font-family: Times;
+        font-size: 150%;
+    }
+    .news p {
+        font-size: 90%;
+    }
+    
+    footer nav {
+        margin-bottom: 0px;
+    }
+    
+    footer nav li a {
+        font-weight: normal;
+        font-size: 12px;
+    }
+}
